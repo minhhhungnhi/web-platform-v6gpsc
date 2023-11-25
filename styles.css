@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.content {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 24px;
+  line-height: 1.5;
+}
+
+.content h1 {
+  font-size: 3.2rem;
+}
+
+.content p {
+  margin: 16px 0;
+  font-size: 1.8rem;
+}
+
+.content img {
+  max-width: 100%;
+}
+
+.active-student {
+  width: 207px;
+  background: orange;
+  padding: 17px 35px;
+}
+
+.list-student {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.avatar {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+  margin-left: -10px;
+}
+
+.avatar:nth-child(5) {
+  background: blue;
+  line-height: 33px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 600;
+}
+
+.parent {
+  background-color: #001f3f;
+  display: flex;
+  padding: 20px;
+}
+
+.child {
+  background-color: #0074d9;
+  padding: 20px;
+  color: white;
+  flex-grow: 1;
+}
